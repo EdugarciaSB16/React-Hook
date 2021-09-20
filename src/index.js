@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MultipleCustomHook from './components/03-exampleHooks/MultipleCustomHook';
+import Memorize from './components/06-memos/Memorize';
 import './index.css'
+//import UseLayoutEffect from './components/05-useLayoutEffect/UseLayoutEffect';
+//import ExampleUseRef from './components/04-useRef/ExampleUseRef';
+//import FocusScreen from './components/04-useRef/FocusScreen';
+//import MultipleCustomHook from './components/03-exampleHooks/MultipleCustomHook';
 //import FormCustomHook from './components/02-useEffect/FormCustomHook';
 //import SimpleForm from './components/02-useEffect/SimpleForm';
 //import CounterCustomHook from './components/01-useState/CounterCustomHook';
@@ -11,7 +15,7 @@ import './index.css'
 
 ReactDOM.render(
   <React.StrictMode>
-    <MultipleCustomHook/>
+    <Memorize/>
   </React.StrictMode>,
   document.getElementById('root')
 );
