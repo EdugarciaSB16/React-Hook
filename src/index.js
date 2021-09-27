@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Memorize from './components/06-memos/Memorize';
+import TodoApp from './components/08-useReducer/TodoApp';
 import './index.css'
+//import { Padre } from './components/07-tarea-memo/Padre';
+//import CallbackHook from './components/06-memos/CallbackHook';
+//import MemoHook from './components/06-memos/MemoHook';
+//import Memorize from './components/06-memos/Memorize';
 //import UseLayoutEffect from './components/05-useLayoutEffect/UseLayoutEffect';
 //import ExampleUseRef from './components/04-useRef/ExampleUseRef';
 //import FocusScreen from './components/04-useRef/FocusScreen';
@@ -15,7 +19,8 @@ import './index.css'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Memorize/>
+    <TodoApp/>
   </React.StrictMode>,
   document.getElementById('root')
 );
+

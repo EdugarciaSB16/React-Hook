@@ -1,7 +1,22 @@
-body{
-    padding:70px;
+body {
+    padding: 60px;
 }
 
-button{
+button {
     margin: 10px;
+}
+
+p{
+    cursor: pointer;
+    margin: 0px;
+}
+
+.list-group-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.complete{
+    text-decoration: line-through;
 }
