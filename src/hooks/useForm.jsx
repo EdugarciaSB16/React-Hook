@@ -4,6 +4,10 @@ const useForm = (initialState = {}) => {
    
     const [value, setValue] = useState(initialState)
 
+    const reset = () => {
+        setValue( initialState );
+    }
+
     const handleInputChange = ({target}) => {
         setValue({
             ...value,
@@ -11,7 +15,7 @@ const useForm = (initialState = {}) => {
         })
     }
 
-    return  [ value, handleInputChange ]
+    return  [ value, handleInputChange, reset ]
 
 };
 
